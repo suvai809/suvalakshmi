@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head><title>
+suvai</title>
+<style>
+body{
+font-family:arial,sans-serif;
+margin:0;
+padding:0;
+background-color: white;
+}
+header{
+background-color:#333;
+color:#fff;
+text-align:center;
+padding:2em 0;
+}
+header-content h1{
+font-size:2.5rem;
+}
+nav{
+background-color: black;
+color:white;
+text-align:center;
+}
+nav ul{
+list-style-type: none;
+padding:0;
+}
+nav ul li {
+display:inline;
+margin:0 20px;
+}
+nav ul li a{
+text-decoration:none;
+color:white;
+}
+.section-content{
+padding:2rem;
+background-color:white;
+margin:1rem;
+border-radius:15px;
+display:inline-block;
+color:black;
+margin-top:10px;
+}
+footer{
+text-align: center;
+padding:1rem;
+background-color:black;
+color:white;
+}
+ul {
+ list-style-type:disc;
+padding-left:20px;
+}
+</style>
+<html>
+<body>
+<header>
+<div class="header-content">
+<h1>SUVALAKSHMI</h1>
+<p> studying in computer science</p>
+</div>
+<header>
+<nav><ul>
+<li><a href="#abt">About</a></li>
+<li><a href="#edu">Education</a></li>
+<li><a href="#skl">Skills</a></li>
+</ul>
+</nav>
+<section id="abt">
+<div class="section-content">
+<h2>About me</h2>
+<p>hi! i'm a computer science student</p>
+</div>
+</section>
+<section id="edu">
+<div class="section-content">
+<h2>B.C.A</h2>
+<p>studied in ambai arts college</p>
+</div>
+</section>
+<section id="skl">
+<div class="section-content">
+<h2>skills</h2>
+<ul>
+<li>html</li>
+<li>css</li>
+<li>javascript</li>
+<li>c</li>
+<li>c++</li>
+</ul></div>
+</section>
+<footer>
+<p>2023 last year student</p>
+</footer>
+<script>
+const targetId=this.getAttribute('href').substring(1);
+const targetElement=document.getElementById(targetId);
+if(targetelement){
+window.scrollTo({
+top:targetElement.offsetTop,
+behaviour:'smooth'
+});
+}
+</script>
+
+</body>
+</html>
